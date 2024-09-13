@@ -1,6 +1,6 @@
 # TIL compiler
 
-At the beginning of development, the repository contains source code for the Simple language in which all references to Simple have been replaced with TIL.
+Project of the 2023/24 Compilers Course. Consists of a compiler for the language TIL.
 
 The steps to develop a full TIL compiler imply the adaptation of:
 * the scanner (`til_scanner.l`)
@@ -10,5 +10,6 @@ The steps to develop a full TIL compiler imply the adaptation of:
 * the XML writer (for the middle delivery: `targets/xml_writer.cpp`)
 * the Postfix writer (for the final delivery: `targets/postfix_writer.cpp`)
 
-Note that not all the code has to be working for all deliveries. Check the evaluation conditions on the course pages.
+TIL specifications (Portuguese):
+https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Compiladores/Projecto_de_Compiladores/Projecto_2023-2024/Manual_de_Refer%C3%AAncia_da_Linguagem_TIL
 
